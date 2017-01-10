@@ -18,7 +18,8 @@ int motorrotation = 0;  // Keeps track of cannon motor rotation
 unsigned long end_time; // For time comparisons
 
 
-// Keeping track of progress on track, for troubleshooting purposes
+// Keep track of progress, for troubleshooting purposes
+// Phase number is printed to onboard screen
 void phase(){
      currentphase++;
      ClearLine(LCD_LINE3);
